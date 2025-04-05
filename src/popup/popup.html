@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./popup.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="setting hidden">
+                <div class="setting__blur"></div>
+                <div class="setting__background"></div>
+                <div class="setting__container">
+                    <div class="setting__form">
+                        <div class="setting__top">
+                            <div class="setting__top--title">Setting</div>
+                            <button class="setting__top--icon">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="setting__top--icon-svg"
+                                    fill="none"
+                                    viewBox="0 0 32 32"
+                                >
+                                    <path
+                                        class="setting__top--icon-path"
+                                        d="M25.712 24.288a1.012 1.012 0 0 1 0 1.424 1.025 1.025 0 0 1-1.424 0L16 17.412l-8.287 8.3a1.025 1.025 0 0 1-1.425 0 1.012 1.012 0 0 1 0-1.424l8.3-8.288-8.3-8.287a1.013 1.013 0 0 1 1.425-1.425l8.287 8.3 8.288-8.3a1.013 1.013 0 0 1 1.424 1.425L17.412 16l8.3 8.288Z"
+                                    />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="setting__option">
+                            <div class="setting__option--title">Dark Mode</div>
+                            <div class="setting__value">
+                                <label class="switch">
+                                    <input
+                                        type="checkbox"
+                                        id="darkModeSetting"
+                                    />
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="setting__option">
+                            <div class="setting__option--title">
+                                Focus Length
+                            </div>
+                            <div class="setting__value">
+                                <input
+                                    class="setting__value--input"
+                                    type="number"
+                                    name=""
+                                    id="focusLengthSetting"
+                                />
+                            </div>
+                        </div>
+                        <div class="setting__option">
+                            <div class="setting__option--title">
+                                Short Break Length
+                            </div>
+                            <div class="setting__value">
+                                <input
+                                    class="setting__value--input"
+                                    type="number"
+                                    name=""
+                                    id="shortBreakLengthSetting"
+                                />
+                            </div>
+                        </div>
+                        <div class="setting__option">
+                            <div class="setting__option--title">
+                                Long Break Length
+                            </div>
+                            <div class="setting__value">
+                                <input
+                                    class="setting__value--input"
+                                    type="number"
+                                    name=""
+                                    id="longBreakLengthSetting"
+                                />
+                            </div>
+                        </div>
+                        <div class="setting__option">
+                            <div class="setting__option--title">
+                                Until Long Break
+                            </div>
+                            <div class="setting__value">
+                                <input
+                                    class="setting__value--input"
+                                    type="number"
+                                    name=""
+                                    id="untilLongBreakSetting"
+                                />
+                            </div>
+                        </div>
+                        <div class="setting__option">
+                            <div class="setting__option--title">Sound</div>
+                            <div class="setting__value">
+                                <label class="switch">
+                                    <input type="checkbox" id="soundSetting" />
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="setting__option">
+                            <div class="setting__option--title">
+                                Notifications
+                            </div>
+                            <div class="setting__value">
+                                <label class="switch">
+                                    <input
+                                        type="checkbox"
+                                        id="notificationsSetting"
+                                    />
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="pomo__mode">
+                <div class="pomo__mode--btn">
+                    <svg
+                        class="pomo--icon-svg"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 32 32"
+                    >
+                        <path
+                            class="pomo--icon-path"
+                            d="M31 16.5a7 7 0 0 0-4-6.325V9a6 6 0 0 0-11-3.312A6 6 0 0 0 5 9v1.175a7 7 0 0 0 0 12.65V23a6 6 0 0 0 11 3.313A6 6 0 0 0 27 23v-.175a7.012 7.012 0 0 0 4-6.325ZM11 27a4 4 0 0 1-3.975-3.575c.322.05.648.076.975.075h1a1 1 0 1 0 0-2H8a5 5 0 0 1-1.663-9.713 1.012 1.012 0 0 0 .663-.95V9a4 4 0 0 1 8 0v9.538A5.925 5.925 0 0 0 11 17a1 1 0 1 0 0 2 4 4 0 0 1 0 8Zm13-5.5h-1a1 1 0 0 0 0 2h1c.326 0 .652-.024.975-.075A4 4 0 1 1 21 19a1 1 0 1 0 0-2 5.925 5.925 0 0 0-4 1.538V9a4 4 0 1 1 8 0v1.838a1.012 1.012 0 0 0 .663.95A5 5 0 0 1 24 21.5ZM7.5 16a1 1 0 1 1 0-2 2.513 2.513 0 0 0 2.5-2.5v-1a1 1 0 1 1 2 0v1A4.5 4.5 0 0 1 7.5 16Zm18-1a1 1 0 0 1-1 1 4.5 4.5 0 0 1-4.5-4.5v-1a1 1 0 1 1 2 0v1a2.513 2.513 0 0 0 2.5 2.5 1 1 0 0 1 1 1Z"
+                        />
+                    </svg>
+                    <span class="pomo__mode--text">Focus</span>
+                </div>
+            </section>
+            <section class="timer">
+                <div class="timer__text timer__text--min">25</div>
+                <div class="timer__text timer__text--sec">00</div>
+            </section>
+            <section class="control">
+                <button class="control__side setting-btn" title="sideButton">
+                    <svg
+                        class="control--icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 32 32"
+                    >
+                        <path
+                            class="control--icon-svg"
+                            d="M19.5 16a3.5 3.5 0 1 1-3.5-3.5 3.512 3.512 0 0 1 3.5 3.5ZM6 12.5A3.5 3.5 0 1 0 9.5 16 3.512 3.512 0 0 0 6 12.5Zm20 0a3.5 3.5 0 1 0 3.5 3.5 3.512 3.512 0 0 0-3.5-3.5Z"
+                        />
+                    </svg>
+                </button>
+                <button
+                    class="control__middle hey"
+                    title="middleButton"
+                    id="launchButton"
+                >
+                    <svg
+                        class="control--icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 32 32"
+                    >
+                        <path
+                            d="M30 16a2.012 2.012 0 0 1-.962 1.712l-18 10.988a1.937 1.937 0 0 1-2.013.038A1.974 1.974 0 0 1 8 27V5a1.975 1.975 0 0 1 1.025-1.737 1.938 1.938 0 0 1 2.012.037l18 10.988A2.012 2.012 0 0 1 30 16Z"
+                        />
+                    </svg>
+                </button>
+                <button
+                    class="control__side"
+                    title="sideButton"
+                    id="nextModeButton"
+                >
+                    <svg
+                        class="control--icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 32 32"
+                    >
+                        <path
+                            d="M31.65 16a2 2 0 0 1-.912 1.688l-11.15 7.162a1.999 1.999 0 0 1-3.088-1.688v-5.325L5.588 24.85A1.999 1.999 0 0 1 2.5 23.162V8.839A2 2 0 0 1 5.588 7.15L16.5 14.162V8.838a2 2 0 0 1 3.087-1.688l11.15 7.162A1.999 1.999 0 0 1 31.65 16Z"
+                        />
+                    </svg>
+                </button>
+            </section>
+        </div>
+
+        <!-- Script -->
+        <script src="popup.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
