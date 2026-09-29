@@ -1,5 +1,5 @@
 ## POMO
-<a href="https://ali36saadat.github.io/repositories/guess-game-ts">
+<a href="https://ali36saadat.github.io/repositories/pomo">
   <img src="https://github.com/user-attachments/assets/da46a372-b04d-4f20-9f36-8800d4c092db" alt="header">
 </a>
 
