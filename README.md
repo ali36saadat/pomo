@@ -3,10 +3,10 @@
   <img src="https://github.com/user-attachments/assets/da46a372-b04d-4f20-9f36-8800d4c092db" alt="header">
 </a>
 
-### Description
+## Description
 Pomo is a Chrome extension for the Pomodoro technique. It includes timers for focus sessions, short breaks, and long breaks to help organize work and rest.
 
-### Usage
+## Usage
 **Requirements:** None
 
 1: Clone
