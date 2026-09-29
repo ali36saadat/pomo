@@ -1,19 +1,17 @@
 ## POMO
-![POMO - Headder](https://github.com/user-attachments/assets/cea8ded6-b2c2-48ba-987e-81a539c2539a)
+<a href="https://ali36saadat.github.io/repositories/guess-game-ts">
+  <img src="https://github.com/user-attachments/assets/da46a372-b04d-4f20-9f36-8800d4c092db" alt="header">
+</a>
 
-## Usage
-**Requirements:** `-`
+### Description
+Pomo is a Chrome extension for the Pomodoro technique. It includes timers for focus sessions, short breaks, and long breaks to help organize work and rest.
 
-### Step 1: Go to the Extensions page by entering `chrome://extensions` in a new tab. (By design `chrome://` URLs are not linkable.)
-+ Alternatively, click the Extensions menu puzzle button and select Manage Extensions at the bottom of the menu.
-+ Or, click the Chrome menu, hover over More Tools, then select Extensions.
+### Usage
+**Requirements:** None
 
-### Step 2: Enable Developer Mode by clicking the toggle switch next to Developer mode.
-
-### Step 3: Click the Load unpacked button and select the extension directory.
-
-## Contributors
-Desinger : <a href="https://linktr.ee/alexandrlo" target="_blank">AlexandrLo</a> - <a href="https://www.figma.com/community/file/1112830528857083939" target="_blank">Figma Prototype</a>
-
-## Socials
-![Socials](https://github.com/user-attachments/assets/c2ac63b7-ebf8-4955-bda7-289351e94099)
+1: Clone
+```bash
+git clone https://github.com/ali36saadat/pomo.git
+```
+2: Open `chrome://extensions` in Chrome and enable Developer mode.
+3: Click Load unpacked and select the pomo project folder.
