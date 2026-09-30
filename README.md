@@ -15,3 +15,6 @@ git clone https://github.com/ali36saadat/pomo.git
 ```
 2: Open `chrome://extensions` in Chrome and enable Developer mode.
 3: Click Load unpacked and select the pomo project folder.
+
+## Acknowledgments
+ **[FIGMA - AlexandrLo](https://www.figma.com/community/file/1112830528857083939)**
